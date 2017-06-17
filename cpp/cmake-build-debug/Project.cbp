@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/8.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 8.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/8.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 8.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="7.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/7.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 7.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="7.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/7.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 7.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/5.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 5.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/5.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 5.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/3.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/3.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="9.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/9.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 9.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="9.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/9.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 9.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="234.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/234.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 234.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="234.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/234.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 234.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 2.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 2.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="459.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/459.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 459.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="459.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/459.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 459.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="336.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/336.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 336.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="336.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/336.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 336.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="28.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/28.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 28.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="28.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/28.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 28.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="336-1.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/336-1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 336-1.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="336-1.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/336-1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 336-1.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="234-1.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/234-1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 234-1.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="234-1.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/234-1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 234-1.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="214.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/214.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 214.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="214.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/214.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 214.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="214-2.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/214-2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 214-2.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="214-2.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/214-2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 214-2.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="214-1.out">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/214-1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 214-1.out"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="214-1.out/fast">
+				<Option output="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/214-1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 214-1.out/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/DickyShi/Northwestern/leetcode/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/214-1_shortest_palindrome.cpp">
+			<Option target="214-1.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/214-2_shortest_palindrome.cpp">
+			<Option target="214-2.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/214_shortest_palindrome.cpp">
+			<Option target="214.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/234-1Timeout??_palindrome_linked_list.cpp">
+			<Option target="234-1.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/234_palindrome_linked_list.cpp">
+			<Option target="234.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/28_strStr.cpp">
+			<Option target="28.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/2_Add_Two_Numbers.cpp">
+			<Option target="2.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/336-1Timeout_palindrome_pair.cpp">
+			<Option target="336-1.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/336_palindrome_pair.cpp">
+			<Option target="336.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/3_longest_non_repeat_substring.cpp">
+			<Option target="3.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/459_repeated_substring_pattern.cpp">
+			<Option target="459.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/5_longest_palindromic_substring.cpp">
+			<Option target="5.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/7_reverse_integer.cpp">
+			<Option target="7.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/8_string_to_integer.cpp">
+			<Option target="8.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/9_palidrome_number.cpp">
+			<Option target="9.out"/>
+		</Unit>
+		<Unit filename="/Users/DickyShi/Northwestern/leetcode/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

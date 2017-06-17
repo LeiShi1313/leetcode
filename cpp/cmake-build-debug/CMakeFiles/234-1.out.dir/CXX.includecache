@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/DickyShi/Northwestern/leetcode/cpp/234-1Timeout??_palindrome_linked_list.cpp
+iostream
+-
+vector
+-
+ctime
+-
+

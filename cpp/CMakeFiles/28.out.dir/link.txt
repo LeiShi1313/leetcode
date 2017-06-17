@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/28.out.dir/28_strStr.cpp.o  -o 28.out 

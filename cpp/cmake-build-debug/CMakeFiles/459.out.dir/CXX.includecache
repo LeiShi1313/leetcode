@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/DickyShi/Northwestern/leetcode/cpp/459_repeated_substring_pattern.cpp
+iostream
+-
+vector
+-
+ctime
+-
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/DickyShi/Northwestern/leetcode/cpp/336-1Timeout_palindrome_pair.cpp
+iostream
+-
+vector
+-
+ctime
+-
+utils.h
+/Users/DickyShi/Northwestern/leetcode/cpp/utils.h
+
+/Users/DickyShi/Northwestern/leetcode/cpp/utils.h
+
