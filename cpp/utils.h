@@ -5,8 +5,18 @@
 #ifndef PROJECT_UTILS_H
 #define PROJECT_UTILS_H
 
-#endif //PROJECT_UTILS_H
+#include <iostream>
 
+class ListNode {
+public:
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {};
+    ListNode(void) : val(0), next(NULL) {};
+    ListNode* getNodesFromInteger(std::vector<int>&);
+    int getVal();
+    friend std::ostream& operator<<(std::ostream&, ListNode*);
+};
 
 template<typename T>
 void printVector(const T& t) {
@@ -33,3 +43,10 @@ std::ostream& operator <<( std::ostream& out, const std::vector<T1>& object )
     out << "]";
     return out;
 }
+
+
+
+#endif //PROJECT_UTILS_H
+
+
+
