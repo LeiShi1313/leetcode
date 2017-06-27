@@ -35,3 +35,15 @@ std::ostream& operator <<(std::ostream& out, ListNode* l) {
     out << "NULL";
     return out;
 }
+
+std::vector<std::vector<char> > string_to_vector_of_char(std::vector<std::string> strs) {
+    std::vector<std::vector<char> > chars;
+    for (auto &str: strs) {
+        std::vector<char> cs;
+        for (auto &c: str) {
+            cs.push_back(c);
+        }
+        chars.push_back(cs);
+    }
+    return chars;
+}

@@ -44,7 +44,7 @@ std::ostream& operator <<( std::ostream& out, const std::vector<T1>& object )
     return out;
 }
 
-
+std::vector<std::vector<char> > string_to_vector_of_char(std::vector<std::string>);
 
 #endif //PROJECT_UTILS_H
 
