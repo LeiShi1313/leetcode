@@ -14,11 +14,15 @@ class Solution {
 public:
     string toHex(int num) {
         if (num == 0) return "0";
-        string HEX = "0123456789abcdef";
         string s = "";
         int count = 0;
         while (num && count++ < 8) {
-            s = HEX[(num & 0xf)] + s;
+            int byte = num & 0xf;
+            if (byte >= 0 && byte <= 9) {
+                s = string(1,'0' + byte) + s;
+            } else {
+                s = string(1,'a' + byte - 10) + s;
+            }
             num >>= 4;
         }
         return s;
