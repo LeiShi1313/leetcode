@@ -15,6 +15,7 @@ public:
     bool isMatch(string s, string p) {
         if (p == "") return s == "";
 
+        // what is p[1] not exist? ---- July 4
         if (p[1] == '*') {
             return (isMatch(s, p.substr(2))
                     || !s.empty()

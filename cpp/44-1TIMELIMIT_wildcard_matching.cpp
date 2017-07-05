@@ -16,10 +16,9 @@ public:
         if (p.empty()) return s.empty();
 
         if (p[0] == '*') {
-            return (isMatch(s, p.substr(1)))
+            return isMatch(s, p.substr(1))
                    || (!s.empty()
-                   && (isMatch(s.substr(1), p)
-                   || isMatch(s.substr(1), p.substr(1))));
+                   && isMatch(s.substr(1), p));
 
         } else {
             return !s.empty()
