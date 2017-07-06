@@ -4,38 +4,30 @@
 using namespace std;
 
 
-
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* incNode = inc(l1,l2);
-        if (incNode->val >= 10) {
-            ListNode* l;
-            l->val = 1;
-            l->next = l1;
-            l1->val -= 10;
-        } else {
-            return incNode;
+        ListNode *dummy = new ListNode(0);
+        ListNode *p = dummy;
+        int incre = 0;
+        int sum;
+        while (l1 || l2 || incre) {
+            sum = (l1?l1->val:0) + (l2?l2->val:0) + incre;
+            incre = sum / 10;
+            p->next = new ListNode(sum % 10);
+            p = p->next;
+            l1 = l1 ? l1->next : NULL;
+            l2 = l2 ? l2->next : NULL;
         }
-        return inc(l1, l2);
+        return dummy->next;
     }
-    ListNode* inc(ListNode* l1, ListNode* l2) {
-        if (l1 == NULL) {
-            return new ListNode(0);
-        }
-        incNode = inc(l1->next,l2->next);
-        int incre=0;
-        if (incNode->val >= 10) {
-            incNode->val -= 10;
-            incre = 1;
-        }
-        int s = l1->val + l2->val + incre;
-        l1->val = s;
-        return l1;
-    }
+
 };
 
 int main() {
-    ListNode
-    cout << Solution()->lengthOfLongestSubstring("abcabcbb") << endl;
+    vector<int> n1, n2;
+
+    n1 = {2,4,3};
+    n2 = {5,6,4};
+    cout << Solution().addTwoNumbers(ListNode().getNodesFromInteger(n1), ListNode().getNodesFromInteger(n2)) << endl;
 }
