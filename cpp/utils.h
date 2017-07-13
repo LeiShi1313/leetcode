@@ -18,6 +18,14 @@ public:
     friend std::ostream& operator<<(std::ostream&, ListNode*);
 };
 
+class TreeNode {
+public:
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
 template<typename T>
 void printVector(const T& t) {
     std::copy(t.cbegin(), t.cend(), std::ostream_iterator<typename T::value_type>(std::cout, ", "));

@@ -14,37 +14,26 @@ class Solution {
 public:
     int search(vector<int>& nums, int target) {
 
-        if (nums.empty()) return -1;
         int low = 0, high = nums.size()-1;
-        int mid, min, res = -1;
-
-        while (low < high) {
-            mid = (high + low) >> 1;
-            if (nums[mid] > nums[high]) {
-                low = mid + 1;
-            } else {
-                high = mid;
-            }
-        }
-        min = low;
-
-        if (target <= nums.back()) {
-            low = min;
-            high = nums.size()-1;
-        } else {
-            low = 0;
-            high = min - 1;
-        }
+        int mid, res = -1;
 
         while (low <= high) {
-            mid = (high + low) >> 1;
-            if (target < nums[mid]) {
-                high = mid;
-            } else if (target > nums[mid]) {
-                low = mid + 1;
+            mid = low + (high - low) / 2;
+
+            if (target > nums[mid]) {
+                if (nums[0] > nums[mid] && nums[0] <= target) {
+                    high = mid - 1;
+                } else {
+                    low = mid + 1;
+                }
+            } else if (target < nums[mid]) {
+                if (nums[0] <= nums[mid] && nums[0] > target) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
             } else {
-                res = mid;
-                break;
+                res = mid;break;
             }
         }
 
@@ -74,22 +63,6 @@ int main() {
     cout << Solution().search(nums, 1) << endl;
     cout << Solution().search(nums, 2) << endl;
     cout << Solution().search(nums, 3) << endl;
-    cout << Solution().search(nums, 4) << endl;
-
-    nums = {1,3};
-    cout << Solution().search(nums, 1) << endl;
-    cout << Solution().search(nums, 3) << endl;
-
-    nums = {3,1};
-    cout << Solution().search(nums, 3) << endl;
-    cout << Solution().search(nums, 1) << endl;
-
-    nums = {1,2,3};
-    cout << Solution().search(nums, 1) << endl;
-    cout << Solution().search(nums, 2) << endl;
-    cout << Solution().search(nums, 3) << endl;
-
-    nums = {};
     cout << Solution().search(nums, 4) << endl;
     return 0;
 }

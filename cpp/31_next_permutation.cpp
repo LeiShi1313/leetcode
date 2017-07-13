@@ -21,7 +21,7 @@ public:
         reverse(nums.begin()+i+1, nums.end());
         if (i == -1) return;
 
-        auto l = upper_bound(nums.begin()+i+1, nums.end(), nums[i]);
+        auto l = lower_bound(nums.begin()+i+1, nums.end(), nums[i]);
         cout << *l << endl;
         swap(nums[i], *(nums.end()-1));
     }

@@ -19,21 +19,19 @@ public:
 
         while (low <= high) {
             mid = low + (high - low) / 2;
-
-            if (target > nums[mid]) {
-                if (nums[0] > nums[mid] && nums[0] <= target) {
+            if (nums[mid] == target) {res = mid; break;}
+            if (nums[low] <= nums[high]) {
+                if (target >= nums[low] && target < nums[mid]) {
                     high = mid - 1;
                 } else {
                     low = mid + 1;
-                }
-            } else if (target < nums[mid]) {
-                if (nums[0] <= nums[mid] && nums[0] > target) {
-                    low = mid + 1;
-                } else {
-                    high = mid - 1;
                 }
             } else {
-                res = mid;break;
+                if (target <= nums[high] && target > nums[mid]) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
             }
         }
 
