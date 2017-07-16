@@ -24,6 +24,9 @@ public:
     TreeNode *left;
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+    TreeNode(void) : val(0), left(NULL), right(NULL) {}
+    TreeNode* getRoot(std::vector<int> &);
+    friend std::ostream& operator<<(std::ostream&, TreeNode*);
 };
 
 template<typename T>
