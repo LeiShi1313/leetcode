@@ -22,7 +22,6 @@ public:
         if (i == -1) return;
 
         auto l = lower_bound(nums.begin()+i+1, nums.end(), nums[i]);
-        cout << *l << endl;
         swap(nums[i], *(nums.end()-1));
     }
 };

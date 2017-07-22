@@ -39,7 +39,7 @@ public:
         while (low <= high) {
             mid = (high + low) >> 1;
             if (target < nums[mid]) {
-                high = mid;
+                high = mid - 1;
             } else if (target > nums[mid]) {
                 low = mid + 1;
             } else {

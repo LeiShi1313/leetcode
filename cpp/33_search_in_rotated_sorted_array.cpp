@@ -20,7 +20,7 @@ public:
         while (low <= high) {
             mid = low + (high - low) / 2;
             if (nums[mid] == target) {res = mid; break;}
-            if (nums[low] <= nums[high]) {
+            if (nums[mid] > nums[high]) {
                 if (target >= nums[low] && target < nums[mid]) {
                     high = mid - 1;
                 } else {

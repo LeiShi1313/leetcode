@@ -44,7 +44,7 @@ int main() {
 
     vector<int> nums;
 
-    nums = {3,9,20,0,0,15,7};
+    nums = {3,9,20,INT_MIN,INT_MIN,15,7};
     cout << Solution().levelOrder(TreeNode().getRoot(nums)) << endl;
 
 
