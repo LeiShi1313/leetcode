@@ -4,9 +4,10 @@
 #include <iostream>
 #include <vector>
 #include <map>
-#include <set>
 #include <unordered_map>
+#include <set>
 #include <unordered_set>
+#include <queue>
 #include <string>
 #include <ctime>
 #include "utils.h"
@@ -14,30 +15,27 @@ using namespace std;
 
 class Solution {
 public:
-    int subarraySum(vector<int>& nums, int k) {
+    bool checkSubarraySum(vector<int>& nums, int k) {
 
-        unordered_map<int, int> mem;
-        int count = 0, sum = 0;
-        mem[0] = 1;
-
-        for (int i = 0; i < nums.size(); i++) {
-            sum += nums[i];
-
-            if (mem.find(sum-k) != mem.end())
-                count += mem[sum-k];
-            mem[sum]++;
+        int n = nums.size(), pre = 0, mod;
+        unordered_set<int> mem;
+        int sum = 0;
+        for (auto &num: nums) {
+            sum += num;
+            mod = k==0 ? sum : sum%k;
+            if (mem.find(mod) != mem.end()) return true;
+            mem.insert(pre);
+            pre = mod;
         }
-        return count;
+        return false;
     }
 };
 
 int main() {
     vector<int> nums;
 
-    nums = {1,1,1};
-    cout << Solution().subarraySum(nums, 2) << endl;
-
-    cout << Solution().subarraySum(nums, 3) << endl;
+    nums = {23, 2, 4, 5, 13};
+    cout << Solution().checkSubarraySum(nums, 6) << endl;
 
     return 0;
 }
