@@ -61,6 +61,10 @@ std::ostream& operator <<(std::ostream& out, ListNode* l) {
     out << "NULL";
     return out;
 }
+std::ostream& operator <<(std::ostream& out, Interval i) {
+    out << '[' << i.start << ',' << i.end << ']';
+    return out;
+}
 
 void inorder(std::ostream& out, TreeNode* p, int indent=0)
 {

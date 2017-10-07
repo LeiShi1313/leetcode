@@ -42,5 +42,11 @@ int main() {
 
     nums = {1,2,3,4,5,6};
     cout << Solution().largestRectangleArea(nums) << endl;
+
+    nums = {2,3,2,1,2,4,3};
+    cout << Solution().largestRectangleArea(nums) << endl;
+
+    nums = {2,3,2,1,2,4,3};
+    cout << Solution().largestRectangleArea(nums) << endl;
     return 0;
 }

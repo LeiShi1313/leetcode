@@ -6,6 +6,7 @@
 #define PROJECT_UTILS_H
 
 #include <iostream>
+#include <vector>
 
 class ListNode {
 public:
@@ -27,6 +28,29 @@ public:
     TreeNode(void) : val(0), left(NULL), right(NULL) {}
     TreeNode* getRoot(std::vector<int> &);
     friend std::ostream& operator<<(std::ostream&, TreeNode*);
+};
+
+class UndirectedGraphNode {
+public:
+    int label;
+    std::vector<UndirectedGraphNode *> neighbors;
+    UndirectedGraphNode(int x) : label(x) {};
+};
+
+class RandomListNode {
+public:
+    int label;
+    RandomListNode *next, *random;
+    RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
+};
+
+class Interval {
+public:
+    int start;
+    int end;
+    Interval() : start(0), end(0) {}
+    Interval(int s, int e) : start(s), end(e) {}
+    friend std::ostream& operator<<(std::ostream&, Interval);
 };
 
 template<typename T>
