@@ -1,6 +1,3 @@
-//
-// Created by Dicky Shi on 6/13/17.
-//
 #include <iostream>
 #include <vector>
 #include <map>
