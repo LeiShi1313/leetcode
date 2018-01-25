@@ -27,7 +27,7 @@ public:
     int get(int key) {
         auto it = c_map.find(key);
         if (it != c_map.end()) {
-            c_list.splice(c_list.begin(), c_list, c_map[key], c_list.end());
+            c_list.splice(c_list.begin(), c_list, c_map[key]);
             return c_map[key]->second;
         } else {
             return -1;

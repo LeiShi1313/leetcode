@@ -21,8 +21,8 @@ public:
         reverse(nums.begin()+i+1, nums.end());
         if (i == -1) return;
 
-        auto l = lower_bound(nums.begin()+i+1, nums.end(), nums[i]);
-        swap(nums[i], *(nums.end()-1));
+        auto l = lower_bound(nums.begin()+i+1, nums.end(), nums[i]+1);
+        swap(nums[i], *l);
     }
 };
 
@@ -38,6 +38,10 @@ int main() {
     cout << nums << endl;
 
     nums = {1,1,5};
+    Solution().nextPermutation(nums);
+    cout << nums << endl;
+
+    nums = {1,5,1};
     Solution().nextPermutation(nums);
     cout << nums << endl;
 

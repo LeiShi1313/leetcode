@@ -7,15 +7,15 @@ class Solution(object):
         """
         nums.sort()
         l = []
-        for i in xrange(len(nums)-3):
+        for i in range(len(nums)-3):
             if i>0 and nums[i] == nums[i-1]:
                 continue
-            for j in xrange(i+1, len(nums)-2):
+            for j in range(i+1, len(nums)-2):
                 if j > i+1 and nums[j] == nums[j-1]:
                     continue
                 twoSumL = self.twoSum(nums[j+1:], target-nums[i]-nums[j])
                 if len(twoSumL) > 0:
-                    map(lambda(x): l.append([nums[i], nums[j]]+x), twoSumL)
+                    map(lambda x: l.append([nums[i], nums[j]]+x), twoSumL)
         return l
 
     def twoSum(self, nums, target):
@@ -41,4 +41,4 @@ class Solution(object):
 
 
 
-print Solution().fourSum([-2,0,0,3,3,-1], 5)
+print (Solution().fourSum([-2,0,0,3,3,-1], 5))
