@@ -3,17 +3,10 @@ from queue import Queue as Q
 class TreeNode(object):
     def __init__(self, val):
         self.val = val
-        self.left = None
-        self.right = None
+        self.child = []
 
     def __repr__(self):
         return str(self.val)
-
-    def __eq__(self, other):
-        return self.val == other.val if isinstance(other, TreeNode) else False
-
-    def __lt__(self, other):
-        return self.val < other.val
 
 
 class Tree(object):
@@ -59,8 +52,7 @@ class Tree(object):
                 n.right = node
                 q.get()
             is_left = not is_left
-            if node:
-                q.put(node)
+            q.put(node)
         return cls(root)
 
 
@@ -70,9 +62,5 @@ if __name__ == '__main__':
     print(tree.inorder())
 
     l = [5, 3, 8, 1, 4, 6, 10, None, 2, None, None, None, None, 9]
-    tree = Tree.from_list(l)
-    print(tree.inorder())
-
-    l = [37,-34,-48,None,-100,-100,48,None,None,None,None,-54,None,-71,-22,None,None,None,8]
     tree = Tree.from_list(l)
     print(tree.inorder())
